@@ -1,0 +1,52 @@
+.promo {
+  background: url(/public/assets/images/background.png) center (center/cover) no-repeat;
+  height: 100vh;
+}
+
+.block {
+  display: grid;
+  row-gap: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.firstHeader {
+  max-width: 890px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+}
+
+.secondHeader {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+} 
+
+.buttonsBlock {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .firstHeader {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  
+  .secondHeader {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
+
+@media (max-width: 576px) {
+  .buttonsBlock {
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    
+  }
+}

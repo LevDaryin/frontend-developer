@@ -1,0 +1,32 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 30px;
+  transition: transform 0.4s;
+  &:active {
+    transform: translateY(5px);
+  }
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.fillButton {
+  background-color: #FFA501;
+}
+
+.strokeButton {
+  border: 2px solid #FFA501;
+}
+
+.buttonText {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+}

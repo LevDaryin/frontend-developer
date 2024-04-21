@@ -1,0 +1,15 @@
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: 40px;
+  column-gap: 30px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.social li {
+  transition: transform 0.4s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
